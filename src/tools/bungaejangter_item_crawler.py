@@ -51,7 +51,6 @@ def get_keyword_page_count(driver, keyword, item_count):
     
     return page_count
     
-
 def get_page_keyword_item_list(driver, keyword, page):
     # 키워드 URL로 이동
     driver.get(base_url + f"search/products?q={keyword}&page={page}")
