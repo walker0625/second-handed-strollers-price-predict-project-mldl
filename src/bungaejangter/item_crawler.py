@@ -13,9 +13,9 @@ import uuid
 import re
 import time
 import math
-from tools.date_util import parse_relative_time
-from tools.image_util import download_image
-from tools.file_util import ensure_dir
+from date_util import parse_relative_time
+from image_util import download_image
+from file_util import ensure_dir
 
 base_url = "https://m.bunjang.co.kr/"
 data_base_path = "C:/Potenup/SecondHanded-Strollers-PredictedPrice/data/raw/"
