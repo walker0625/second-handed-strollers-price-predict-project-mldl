@@ -83,8 +83,7 @@ def get_page_keyword_item_list(driver, keyword, page):
             is_completed = False
         # print(f'판매 완료 : {is_completed}')
 
-        # 판매 위치
-        location_css = "#root > div > div > div:nth-child(4) > div > div.sc-gacfCG.QBPXM > div > div:nth-child(1) > a > div.sc-eInJlc.jSyVwo"
+        location_css = "#root > div > div > div:nth-child(4) > div > div.sc-gacfCG.QBPXM > div > div:nth-child(1) > a > div.sc-hjRWVT.epZFAs"
         try:
             location = item.find_element(By.CSS_SELECTOR, location_css)
         except NoSuchElementException:
