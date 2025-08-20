@@ -9,7 +9,7 @@ def parse_relative_time(text: str, now: datetime | None = None) -> datetime:
     if now is None:
         now = datetime.now()
 
-    match = re.match(r"(\d+)(분|시간|일|달) 전", text.strip())
+    match = re.match(r"(\d+)(분|시간|일|주|달) 전", text.strip())
     if not match:
         raise ValueError(f"지원하지 않는 형식: {text}")
 
@@ -22,6 +22,8 @@ def parse_relative_time(text: str, now: datetime | None = None) -> datetime:
         return now - timedelta(hours=value)
     elif unit == "일":
         return now - timedelta(days=value)
+    elif unit == "주":
+        return now - timedelta(weeks=value)
     elif unit == "달":
         # "달" → 30일로 가정
         return now - timedelta(days=value * 30)
