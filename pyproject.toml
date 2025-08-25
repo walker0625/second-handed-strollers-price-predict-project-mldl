@@ -15,4 +15,6 @@ dependencies = [
     "functions-framework>=3.9.2",
     "webdriver-manager>=4.0.2",
     "koreanize-matplotlib>=0.1.1",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
 ]
