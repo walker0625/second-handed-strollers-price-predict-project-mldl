@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 /data
+/src/training/runs
+/src/training/tools/__pycache__
