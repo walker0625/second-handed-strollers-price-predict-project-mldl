@@ -23,4 +23,5 @@ dependencies = [
     "tensorboard>=2.20.0",
     "tensorboardx>=2.6.4",
     "grad-cam>=1.5.5",
+    "streamlit>=1.49.0",
 ]

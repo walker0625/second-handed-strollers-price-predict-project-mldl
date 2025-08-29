@@ -11,4 +11,5 @@ wheels/
 /data
 /src/training/runs
 /src/training/tools/__pycache__
-/src/training/model_0828.pth
+/src/training/model
+/src/app/sent_data
