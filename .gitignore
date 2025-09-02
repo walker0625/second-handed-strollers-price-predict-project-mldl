@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 /data
+/src/training/runs
+/src/training/tools/__pycache__
+/src/training/model
+/src/app/sent_data

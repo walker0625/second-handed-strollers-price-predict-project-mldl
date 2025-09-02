@@ -17,4 +17,11 @@ dependencies = [
     "koreanize-matplotlib>=0.1.1",
     "seaborn>=0.13.2",
     "tqdm>=4.67.1",
+    "scikit-learn>=1.7.1",
+    "lazypredict>=0.2.16",
+    "lightgbm>=4.6.0",
+    "tensorboard>=2.20.0",
+    "tensorboardx>=2.6.4",
+    "grad-cam>=1.5.5",
+    "streamlit>=1.49.0",
 ]
